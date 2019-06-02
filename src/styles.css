@@ -1,1 +1,62 @@
 /* You can add global styles to this file, and also import other style files */
+.header{
+    height: 80px;
+    width: 98%;
+    background: #0d47a1;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    margin:  0 auto;
+}
+
+.box-shadow{
+    -webkit-box-shadow: 2px 4px 4px 1px rgba(0,0,0,0.5);
+    -moz-box-shadow: 2px 4px 4px 1px rgba(0,0,0,0.5);
+    box-shadow: 2px 4px 4px 1px rgba(0,0,0,0.5);
+}
+
+.container{
+  padding: 10px;
+  text-align: center;
+}
+
+.logo{
+    text-decoration: none;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.primary{
+    background: #0d47a1;
+    color: white;
+}
+
+.b-i{
+    display: inline-block;
+}
+
+.b{
+    display:block; 
+}
+
+.card{
+    padding: 25px;
+    margin-top:16px;
+    margin-right: 10px;
+    margin-bottom:16px;
+    cursor: pointer;
+    box-shadow:0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12)
+}
+
+.card:hover {
+    box-shadow:0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19)
+}
+
+.dashboard{
+    text-align: center
+}
+
+.detail{
+    border: 1px solid #cccccc;
+}
+

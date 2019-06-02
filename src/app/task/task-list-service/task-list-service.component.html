@@ -1,0 +1,14 @@
+<h3>List of Tasks Service</h3>
+<div class="row">
+  <div class="col-lg-6 lista">
+    <a *ngFor="let task of tasks" class="col-1-4">
+      <div (click)="onSelect(task)" class="card b">
+        <a >{{task.nome}}</a>
+      </div>
+    </a>  
+  </div>
+
+  <div class="col-lg-6 detail">
+    <app-task-detail *ngIf="selectedTask" [task]="selectedTask" ></app-task-detail>
+  </div>
+</div>
